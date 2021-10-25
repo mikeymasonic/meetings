@@ -8,7 +8,7 @@ export default function App() {
 
   return (
     <>
-      <h1>Alchemy Meeting Rooms{title ? ` - ${title}` : ''}</h1>
+      <h1>Niche Meeting Rooms{title ? ` - ${title}` : ''}</h1>
       {!auth && <Reception />}
       {auth && <MeetingPage />}
     </>
