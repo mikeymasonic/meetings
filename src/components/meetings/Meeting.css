@@ -1,0 +1,27 @@
+.Meeting {
+  height: 30vh;
+  background-color: black;
+  color: white;
+  overflow: auto;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+
+
+    li {
+      padding: 1rem;
+    }
+
+    .found {
+      color: red;
+    }
+  }
+}

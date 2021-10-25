@@ -1,0 +1,12 @@
+
+.MeetingPage {
+
+  font-size: 24px;
+  padding: 20px 10px;
+
+  .toggle, label {
+    margin: 0px 5px 5px 30px;
+  }
+
+
+}
